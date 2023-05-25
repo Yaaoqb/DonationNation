@@ -1,0 +1,12 @@
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\bin\Debug\net5.0\DonationNation.SQS.deps.json
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\bin\Debug\net5.0\DonationNation.SQS.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\bin\Debug\net5.0\ref\DonationNation.SQS.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\bin\Debug\net5.0\DonationNation.SQS.pdb
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.csproj.AssemblyReference.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.AssemblyInfoInputs.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.AssemblyInfo.cs
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.csproj.CoreCompileInputs.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\ref\DonationNation.SQS.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.SQS\obj\Debug\net5.0\DonationNation.SQS.pdb

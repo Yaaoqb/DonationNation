@@ -1,0 +1,12 @@
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\bin\Release\net5.0\WeClean.SQS.deps.json
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\bin\Release\net5.0\WeClean.SQS.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\bin\Release\net5.0\ref\WeClean.SQS.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\bin\Release\net5.0\WeClean.SQS.pdb
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.csproj.AssemblyReference.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.GeneratedMSBuildEditorConfig.editorconfig
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.AssemblyInfoInputs.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.AssemblyInfo.cs
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.csproj.CoreCompileInputs.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\ref\WeClean.SQS.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.SQS\obj\Release\net5.0\WeClean.SQS.pdb

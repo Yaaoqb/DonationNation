@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Attendance>
+
+@{
+    ViewData["Title"] = "MarkAttendance";
+}
+
+<h1>Mark Attendance</h1>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Event</th>
+            <th scope="col">Name</th>
+            <th scope="col">Present/Absent</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.Event.Name</th>
+                <td>@item.User.FirstName @item.User.LastName</td>
+                @if (item.isPresent)
+                {
+                    <td>
+                        <p class="text-success">Present</p>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" onclick="ToggleAttendance(`@item.Event.Id`, `@item.User.Id`)">Mark as Absent</a>
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        <p class="text-danger">Absent</p>
+                    </td>
+                    <td>
+                        <a class="btn btn-success" onclick="ToggleAttendance(`@item.Event.Id`, `@item.User.Id`)">Mark as Present</a>
+                    </td>
+                }
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script type="text/javascript">
+        function ToggleAttendance(eventId, userId) {
+            console.log("here");
+            var xhr = new XMLHttpRequest();
+            var url = "/markAbsentOrPresent";
+            var myForm = new FormData();
+
+            myForm.append("eventId", eventId);
+            myForm.append("userId", userId);
+
+            xhr.open("POST", url, true);
+            xhr.send(myForm);
+            window.location.reload();
+        }
+    </script>
+}

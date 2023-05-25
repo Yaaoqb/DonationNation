@@ -1,0 +1,22 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net5.0",
+    "self-contained" : false,
+    "application"    : "DonationNation",
+    "environment"    : "DonationNation-test",
+    "enable-xray"    : true,
+    "enhanced-health-type" : "enhanced",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0d1dd5908ed09c340,sg-0e699f85558213ea8\";\"aws:ec2:vpc,Subnets\"=\"subnet-0028549eebe372338\";\"aws:ec2:vpc,ELBSubnets\"=\"subnet-0028549eebe372338,subnet-0ad09bc0e79c1c9a4,subnet-0a7b7f98a051ed2d1,subnet-06ed3ef1ed6644dab,subnet-01949c25c2c1391c0,subnet-045e5e014ef8c67c9\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.3.3 running .NET Core",
+    "environment-type"     : "LoadBalanced",
+    "loadbalancer-type"    : "application",
+    "cname"                : "donationnation-test",
+    "instance-type"        : "t2.medium",
+    "key-pair"             : "EBS",
+    "health-check-url"     : "/",
+    "instance-profile"     : "LabInstanceProfile",
+    "service-role"         : "LabRole",
+    "proxy-server"         : "nginx"
+}

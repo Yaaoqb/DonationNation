@@ -1,0 +1,12 @@
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\bin\Debug\net5.0\DonationNation.Communication.deps.json
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\bin\Debug\net5.0\DonationNation.Communication.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\bin\Debug\net5.0\ref\DonationNation.Communication.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\bin\Debug\net5.0\DonationNation.Communication.pdb
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.csproj.AssemblyReference.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.AssemblyInfoInputs.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.AssemblyInfo.cs
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.csproj.CoreCompileInputs.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\ref\DonationNation.Communication.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Communication\obj\Debug\net5.0\DonationNation.Communication.pdb

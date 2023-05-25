@@ -1,0 +1,12 @@
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\WeClean.Communication.deps.json
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\WeClean.Communication.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\ref\WeClean.Communication.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\WeClean.Communication.pdb
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.csproj.AssemblyReference.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.GeneratedMSBuildEditorConfig.editorconfig
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.AssemblyInfoInputs.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.AssemblyInfo.cs
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.csproj.CoreCompileInputs.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\ref\WeClean.Communication.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\obj\Release\net5.0\WeClean.Communication.pdb

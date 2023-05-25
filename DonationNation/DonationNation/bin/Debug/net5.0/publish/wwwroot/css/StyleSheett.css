@@ -1,0 +1,125 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0033cc;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #0033cc;
+    border-color: #0033cc;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #0033cc;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #0033cc;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+
+/*
+    HOME JUMBOTRON
+*/
+
+.jumbotron {
+    background-color: #fff;
+    background-image: linear-gradient(315deg, #fff 0%, #fff 74%);
+}
+
+.testimonial {
+    background-color: #fff;
+    background-image: linear-gradient(315deg, #fff 0%, #fff 74%);
+    border: none;
+}
+
+.DonationNation-event {
+    background-color: #fff;
+    background-image: linear-gradient(315deg, #fff 0%, #fff 74%);
+    border: none;
+}
+
+.bigheading {
+    color: #343a40;
+}
+
+.stats {
+    border: none;
+}
+
+    .stats h1 {
+        color: white;
+    }
+
+.s-users {
+    background-color: #343a40;
+    background-image: linear-gradient(315deg, #343a40 0%, #343a40 74%);
+}
+
+.s-events {
+    background-color: #343a40;
+    background-image: linear-gradient(315deg, #343a40 0%, #343a40 74%);
+}
+
+.s-badges {
+    background-color: #343a40;
+    background-image: linear-gradient(315deg, #343a40 0%, #343a40 74%);
+}
+
+

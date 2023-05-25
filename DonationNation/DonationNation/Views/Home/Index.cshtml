@@ -1,0 +1,92 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = "DonationNation";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Donation Nation</h1>
+    <p class="lead">
+        “No one has ever become poor from giving.
+        <br />
+         Anne Frank
+    </p>
+    <hr class="my-4">
+    <p>Join us on our journey!</p>
+    <p class="lead">
+        <a class="btn btn-info" href="#events" role="button">Events</a>
+        <a class="btn btn-dark" href="#events" role="button">Testimonials</a>
+    </p>
+</div>
+<section id="events">
+    <div class="text-center">
+        <h1 class="bigheading">Our Events</h1>
+        <div class="container mt-3 mb-2">
+            @if (Model.Events.Count() > 0)
+            {
+                @foreach (var batch in Model.Events.Batch(3))
+                {
+                    <div class="row justify-content-center">
+                        @foreach (var item in batch)
+                        {
+                            <div class="card m-3 DonationNation-event" style="width: 18rem;">
+                                <img class="card-img-top" src="@item.Image" width="150" height="150" alt="DonationNation event picture">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">@item.Name</h5>
+                                    <p class="card-text">@item.Description</p>
+                                    @{
+                                        var hrefVal = "/Identity/Account/Register";
+                                        if (User.Identity.IsAuthenticated)
+                                        {
+                                            hrefVal = $"/Events/Enroll/{item.Id}";
+                                        }
+                                    }
+                                    <a href="@hrefVal" class="btn btn-primary">Register</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+        <br />
+        <br />
+        <h1 class="bigheading">Testimonials</h1>
+        <div class="container mt-3">
+            @if (Model.Testimonials.Count() > 0)
+            {
+                @foreach (var batch in Model.Testimonials.Batch(3))
+                {
+                    <div class="row justify-content-center">
+                        @foreach (var item in batch)
+                        {
+                            <div class="card m-3 testimonial" style="width: 18rem;">
+                                <div class="card-body text-center">
+                                    " @item.Message.Trim() "
+                                    <br />
+                                    - @item.User.FirstName @item.User.LastName
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @if (TempData["EventError"] != null && (bool)TempData["EventError"] == true)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                Swal.fire({
+                    title: 'Event',
+                    text: 'You are already registered for the event!',
+                    icon: 'error',
+                    confirmButtonText: 'Oh'
+                })
+            }
+        </script>
+    }
+}

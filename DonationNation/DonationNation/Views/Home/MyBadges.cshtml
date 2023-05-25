@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Badge>
+
+@{
+    ViewData["Title"] = "MyBadges";
+}
+
+
+
+
+<div class="container mt-3 justify-content-center">
+    <h1>My Badges</h1>
+    @if (Model != null & Model.Count() > 0)
+    {
+        @foreach (var batch in Model.Batch(3))
+        {
+            <div class="row justify-content-center">
+                @foreach (var item in batch)
+                {
+                    <div class="card m-3 DonationNation-event" style="width: 18rem;">
+                        <img class="card-img-top" src="@item.Image" width="70" height="200" alt="DonationNation event picture">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@item.Name</h5>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    }
+</div>

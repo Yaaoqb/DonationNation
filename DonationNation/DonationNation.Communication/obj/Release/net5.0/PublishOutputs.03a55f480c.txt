@@ -1,0 +1,15 @@
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\WeClean.Communication.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\WeClean.Communication.deps.json
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\WeClean.Communication.pdb
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\AWSSDK.Core.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\AWSSDK.SimpleNotificationService.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\MailKit.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.AspNetCore.Identity.UI.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.Extensions.Identity.Core.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\Microsoft.Extensions.Identity.Stores.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\MimeKit.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Communication\bin\Release\net5.0\publish\BouncyCastle.Crypto.dll

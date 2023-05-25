@@ -1,0 +1,89 @@
+﻿@model HomeViewModel
+
+@{
+    ViewData["Title"] = "Administrator Home";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="card m-3 stats bg-dark" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h1>Users</h1>
+                <br />
+                <h1>@Model.UsersCount</h1>
+            </div>
+        </div>
+        <div class="card m-3 stats bg-dark" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h1>Events</h1>
+                <br />
+                <h1>@Model.Eventscount</h1>
+            </div>
+        </div>
+        <div class="card m-3 stats bg-dark" style="width: 18rem;">
+            <div class="card-body text-center">
+                <h1>Badges</h1>
+                <br />
+                <h1>@Model.BadgesCount</h1>
+            </div>
+        </div>
+    </div>
+
+    @if (User.IsInRole("Admin"))
+    {
+        <h2 class="text-center">Our Activties</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">URL</th>
+                    @*                <th scope="col" style="width:10%">Data</th>*@
+                    <th scope="col">Username</th>
+                    <th scope="col">IP Address</th>
+                    <th scope="col">CreatedOn</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Activities)
+                {
+                    <tr>
+                        <th>@item.Url</th>
+                        @*                    <td style="width:10%">@item.Data</td>*@
+                        <td>@item.UserName</td>
+                        <td>@item.IPAddress</td>
+                        <td>@item.CreatedOn.ToShortDateString() @item.CreatedOn.ToShortTimeString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>
+@section Scripts {
+    @if (TempData["BadgeError"] != null && (bool)TempData["BadgeError"] == true)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                Swal.fire({
+                    title: 'Badge',
+                    text: 'User already has the badge!',
+                    icon: 'error',
+                    confirmButtonText: 'Oh'
+                })
+            }
+        </script>
+    }
+    else if (TempData["BadgeError"] != null && (bool)TempData["BadgeError"] == false)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                Swal.fire({
+                    title: 'Badge',
+                    text: 'Badge given to user',
+                    icon: 'success',
+                    confirmButtonText: 'Nice'
+                })
+            }
+        </script>
+
+    }
+}

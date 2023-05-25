@@ -1,0 +1,12 @@
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\bin\Debug\net5.0\DonationNation.Data.deps.json
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\bin\Debug\net5.0\DonationNation.Data.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\bin\Debug\net5.0\ref\DonationNation.Data.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\bin\Debug\net5.0\DonationNation.Data.pdb
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.AssemblyInfoInputs.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.AssemblyInfo.cs
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.csproj.CoreCompileInputs.cache
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\ref\DonationNation.Data.dll
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.pdb
+C:\Users\Yaaqob\source\repos\DonationNation\DonationNation.Data\obj\Debug\net5.0\DonationNation.Data.csproj.AssemblyReference.cache

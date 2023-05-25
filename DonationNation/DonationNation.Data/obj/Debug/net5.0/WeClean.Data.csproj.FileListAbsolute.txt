@@ -1,0 +1,12 @@
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\bin\Debug\net5.0\WeClean.Data.deps.json
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\bin\Debug\net5.0\WeClean.Data.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\bin\Debug\net5.0\ref\WeClean.Data.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\bin\Debug\net5.0\WeClean.Data.pdb
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.csproj.AssemblyReference.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.AssemblyInfoInputs.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.AssemblyInfo.cs
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.csproj.CoreCompileInputs.cache
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\ref\WeClean.Data.dll
+D:\APU\Year 3\Sem 6\DDAC\WeClean\WeClean.Data\obj\Debug\net5.0\WeClean.Data.pdb
